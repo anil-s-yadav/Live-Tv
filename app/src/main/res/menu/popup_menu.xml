@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/All_Channels"
+        android:title="All Channels"
+        android:icon="@drawable/all"/>
+    <item
+        android:id="@+id/Documentary"
+        android:title="Documentary"
+        android:icon="@drawable/documentry"/>
+    <item
+        android:id="@+id/Entertainment"
+        android:title="Entertainment"
+        android:icon="@drawable/entertainment"/>
+    <item
+        android:id="@+id/Kids"
+        android:title="Kids"
+        android:icon="@drawable/kids"/>
+    <item
+        android:id="@+id/Movies"
+        android:title="Movies"
+        android:icon="@drawable/movie"/>
+    <item
+        android:id="@+id/Music"
+        android:title="Music"
+        android:icon="@drawable/music"/>
+    <item
+        android:id="@+id/News"
+        android:title="News"
+        android:icon="@drawable/news"/>
+    <item
+        android:id="@+id/Sports"
+        android:title="Sports"
+        android:icon="@drawable/sports"/>
+    <item
+        android:id="@+id/Religious"
+        android:title="Religious"
+        android:icon="@drawable/religious"/>
+
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+</menu>

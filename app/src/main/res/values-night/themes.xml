@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LiveTV" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <color name="yellow">#E6B961</color>
+    <color name="card_bg">#161616</color>
+    <color name="card">#2D2F30</color>
+    <color name="shadow">#171717</color>
+
+</resources>

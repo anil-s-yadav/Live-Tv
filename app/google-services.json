@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "764842359258",
+    "firebase_url": "https://live-tv-6f21f-default-rtdb.firebaseio.com",
+    "project_id": "live-tv-6f21f",
+    "storage_bucket": "live-tv-6f21f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764842359258:android:956f17f72e9cf51cf6a8e3",
+        "android_client_info": {
+          "package_name": "com.legendarysoftwares.livetv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARCLm29kIBwgV368XLX7GMyQUM_nYqrEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

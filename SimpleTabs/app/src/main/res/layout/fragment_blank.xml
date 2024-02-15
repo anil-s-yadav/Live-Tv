@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text=" Quick Ganerate !"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/me"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:background="@drawable/textbox"
+            android:ems="10"
+            android:padding="10dp"
+            android:inputType="text"
+            android:text="Enter scan data"
+            android:textColor="#C1BDBD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.192"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.193" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Ganerate"
+            android:backgroundTint="#E91E63"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintHorizontal_bias="0.038"
+            app:layout_constraintStart_toEndOf="@+id/editTextText2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.03" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/button"
+            app:layout_constraintStart_toStartOf="@+id/editTextText2"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:text="QR Code"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barcode"
+                android:textColor="@color/white" />
+        </RadioGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/home_bg">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Custom Ganerate"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

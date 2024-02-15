@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ganerate_tab"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Ganerate" />
+    <item
+        android:id="@+id/scan_tab"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Scan" />
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="History" />
+</menu>
